@@ -21,7 +21,7 @@ def get_student_subinfo(std_list) :
 
 
 std_sublist = []
-# 리스트에서 딕셔너리를 함수에 전달하고
+#리스트에서 딕셔너리를 함수에 전달하고
 #반환된 name과 korean만 포함된 딕셔너리 받아서 std_sublist 변수에 추가
 for s in students :
     std_info = get_student_subinfo(s)
