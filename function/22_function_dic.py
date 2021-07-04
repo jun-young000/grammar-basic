@@ -3,8 +3,8 @@
 students = [
     {"name":"홍길동","korean":87, "math":98,"english":88, "science":95},
     {"name":"이몽룡","korean":92, "math":98,"english":96, "science":98},
-    { "name":"성춘향","korean":76, "math":96,"english":94, "science":90},
-    { "name":"변학도","korean":98, "math":92,"english":96, "science":92},
+    {"name":"성춘향","korean":76, "math":96,"english":94, "science":90},
+    {"name":"변학도","korean":98, "math":92,"english":96, "science":92},
     {"name":"박지성","korean":95, "math":98,"english":98, "science":98},
     {"name":"류현진","korean":94, "math":88,"english":92, "science":92}
 ]
@@ -32,3 +32,32 @@ print(std_sublist)
 
 # [{'name': '홍길동', 'korean': 87}, {'name': '이몽룡', 'korean': 92}, {'name': '성춘향', 'korean': 76},
 #  {'name': '변학도', 'korean': 98}, {'name': '박지성', 'korean': 95}, {'name': '류현진', 'korean': 94}]
+
+
+
+
+
+# ________________ 이코드가 더 활요이 좋음________________________
+
+# students = [
+#     {"name":"홍길동","korean":87, "math":98,"english":88, "science":95},
+#     {"name":"이몽룡","korean":92, "math":98,"english":96, "science":98},
+#     {"name":"성춘향","korean":76, "math":96,"english":94, "science":90},
+#     {"name":"변학도","korean":98, "math":92,"english":96, "science":92},
+#     {"name":"박지성","korean":95, "math":98,"english":98, "science":98},
+#     {"name":"류현진","korean":94, "math":88,"english":92, "science":92}
+# ]
+
+# print()  # 줄 띠울려고 종종 이리함.안해도 무방함
+
+
+
+# print("이름","\t 총점",  "\t  평균")
+
+
+
+# for i in students:
+#     std_sum=i["korean"]+i["math"]+i["english"]+i["science"]
+#     std_avg=std_sum/4
+
+#     print(i["name"], "\t",std_sum,"\t",std_avg)
